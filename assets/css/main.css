@@ -45,10 +45,12 @@ body {
 .click-event:hover {
     opacity: 0.75;
     cursor: pointer;
+    user-select: none;
 }
 .click-event:active {
     transform: translateY(2px);
     transition: transform 0.1s;
+    user-select: none;
 }
 button {
     font-family: inter-semibold;

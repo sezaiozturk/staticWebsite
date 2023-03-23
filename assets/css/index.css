@@ -34,3 +34,16 @@
     line-height: 22px;
     margin-bottom: 4px;
 }
+.broadcast-banner-container {
+    background-image: linear-gradient(90.45deg, #FF001F 0%, #470009 100%);
+    font-family: inter-semibold;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    display: flex;
+    color: white;
+    gap: 10px;
+    user-select: none;
+}
